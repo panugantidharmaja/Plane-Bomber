@@ -1,0 +1,36 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="dashboard">
+      <p>
+        <b>Instructions:</b><br />
+        * Use Right Arrow button to move forward.<br />
+        Use Up Arrow button to move Up.<br />
+        Use Down Arrow button to move Downwards. <br />Use space button to
+        release bombs!*<br />
+        Target = 1000
+      </p>
+      Score:
+    </div>
+    <div class="gameArea">
+      <div class="buttonDiv">
+        <button id="button" onclick="start()">Start Game</button>
+      </div>
+      <div class="plane"></div>
+      <div class="blocks"></div>
+    </div>
+    <div class="playAgain">
+      Congratulation! You won!! Play Again<br /><br />
+      <button class="playAgainButton" onclick="playAgain()">
+        Play Again
+      </button>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
